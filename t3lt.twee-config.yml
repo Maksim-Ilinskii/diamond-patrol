@@ -1,0 +1,19 @@
+sugarcube-2:
+  macros:
+    pn:
+      name: pn
+    cont:
+      name: cont
+      container: true
+    pli:
+      name: pli
+      container: true
+    cul:
+      name: cul
+      container: true
+    pln:
+      name: pln
+      container: true
+    xander:
+      name: xander
+      container: true
