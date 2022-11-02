@@ -84,10 +84,10 @@ button {
 	color: bisque;
 	border: 2px solid rgb(128, 6, 165);
 	border-radius: 5px;
-	padding: 150px 10px 10px 10px;
+	padding: 120px 30px 10px 50px;
 	box-shadow: 5px 5px 3px Black;
 	/* Отступ для кнопок: */
-	margin-bottom: 10px !important;
+	margin-bottom: 15px !important;
 }
 
 
@@ -101,10 +101,10 @@ button {
 	color: bisque;
 	border: 2px solid rgb(128, 6, 165);
 	border-radius: 5px;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 30px 10px 30px;
 	box-shadow: 5px 5px 3px Black;
 	/* Отступ для кнопок: */
-	margin-bottom: 10px !important;
+	margin-bottom: 15px !important;
 }
 .playerav {
 	display: block;
@@ -112,7 +112,7 @@ button {
 	height: 130px;
 	width: 130px;
 	float: left;
-	margin: 0px 10px 0px 0px;
+	margin: 5px 5px 0px 0px;
 	border: 2px solid rgb(128, 6, 165);
 	border-radius: 5px;
 	background-size: contain;
@@ -138,7 +138,7 @@ button {
     height: 380px;
 	border: 2px solid rgb(5, 153, 104);
 	border-radius: 5px;
-	padding: 8px 8px 8px 8px;
+	padding: 10px 30px 10px 30px;
 	box-shadow: 5px 5px 3px Black;
 }
 .xanderav {
@@ -173,7 +173,7 @@ button {
     height: 380px;
 	border: 2px solid rgb(5, 111, 153);
 	border-radius: 5px;
-	padding: 8px 8px 8px 8px;
+	padding: 10px 30px 10px 30px;
 	box-shadow: 5px 5px 3px Black;
 	margin-bottom: 15px !important;
 }
@@ -208,7 +208,7 @@ button {
     height: 380px;
 	border: 2px solid rgb(86, 91, 94);
 	border-radius: 5px;
-	padding: 8px 8px 8px 8px;
+	padding: 10px 30px 10px 30px;
 	box-shadow: 5px 5px 3px Black;
 	margin-bottom: 15px !important;
 }
@@ -244,7 +244,7 @@ button {
     height: 380px;
 	border: 2px solid #c98612;
 	border-radius: 5px;
-	padding: 8px 8px 8px 8px;
+	padding: 10px 30px 10px 30px;
 	box-shadow: 5px 5px 3px Black;
 	margin-bottom: 15px !important;
 }
@@ -769,3 +769,70 @@ h6 {
 	  opacity: 0;
 	}
 }
+
+
+
+/* shake */
+
+.shake {
+animation: shake 2s;
+}
+
+@keyframes shake {
+0% { transform: translateY(0) }
+25% { transform: translateY(-40px) }
+75% { transform: translateY(40px) }
+100% { transform: translateY(0) }
+}
+
+
+.shaketired {
+animation: shaketired 2s;
+}
+
+@keyframes shaketired {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 20px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 20px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.shakeverytired {
+animation: shakeverytired 2s;
+}
+
+@keyframes shakeverytired {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 40px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -40px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+.shakestremely {
+animation: shakestremely 2s;
+}
+
+@keyframes shakestremely {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	5% { transform: translate(-1px, -2px) rotate(-1deg); }
+	10% { transform: translate(-3px, 40px) rotate(1deg); }
+	20% { transform: translate(-1px, -2px) rotate(-1deg); }
+	25% { transform: translate(-3px, 3px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	35% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	55% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -40px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+	}

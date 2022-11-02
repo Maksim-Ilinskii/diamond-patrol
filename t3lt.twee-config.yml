@@ -17,3 +17,6 @@ sugarcube-2:
     xander:
       name: xander
       container: true
+    capt:
+      name: capt
+      container: true

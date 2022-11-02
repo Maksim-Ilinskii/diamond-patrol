@@ -135,6 +135,8 @@
 
 :: HQ_3_Xander_1_2
 
+/*  <<set $Xander.relationship +=1>> */
+
 @@#exposition;\
 <<pln>>Моим парикмахером был ветер!<</pln>>
 @@
@@ -207,7 +209,7 @@
                                                                 <</replace>>
                                                                 <<cont keypress>>
                                                                     <<replace '#exposition'>>
-                                                                        <<goto [[HQ_3_Xander_Finish ]]>>
+                                                                        <<goto [[HQ_3_Xander_Finish]]>>
                                                                     <</replace>>
                                                                 <</cont>>
                                                             <</cont>>
@@ -227,11 +229,13 @@
     <</cont>>
 <</silently>>
 
-/*  <<set $Xander.relationship +=1>> */
+
 
 
 
 :: HQ_3_Xander_2
+
+/* xanderMentionedSpecOps = true */
 
 @@#exposition;\
 <<xander>>Ты выщипала брови?<</xander>>
@@ -313,8 +317,7 @@
     <</cont>>
 <</silently>>
 
-/* xanderMentionedSpecOps = true
- */
+
 
 
 

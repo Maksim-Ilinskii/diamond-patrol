@@ -2,7 +2,8 @@
 
 <<include Variables>>
 
-<div class = 'fadeout devn'>>Привет мир</div>
+[[Testground]]
+[[HQ_Captain_Pushups]]
 
 <div class='crt'><div style="color:rgb(151, 38, 173);font-family:'Russo One', sans-serif;">ВВЕДИТЕ ИМЯ ВАШЕЙ ГЕРОИНИ:</div>
 <<textbox "$Player.name" $Player.name>> \
@@ -180,7 +181,7 @@
 
 :: flyPreparation {"position":"900,500"}
 
-<<pli>>Одним махом я прыгнула в монорайд — подарок отца.<</pli>>
+<<pli>>Одним махом я прыгнула в монорайд — подарок отца.<</pli>>\
 <div class="button">[[Давить педаль в пол|StepOnIt]]</div>
 <div class="button">[[Закрыть кабину|CloseCanopy]]</div>
 
