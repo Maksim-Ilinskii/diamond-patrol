@@ -22,9 +22,9 @@
                 <<cont keypress>>
                     <<replace '#exposition'>>\
                         <<if $gotDressed == true>>
-                            <<goto [[HQ_Caffeteria_Xander_MCDressed]]>>
+                            <<goto "HQ_Caffeteria_Xander_MCDressed">>
                         <<else>>
-                            <<goto [[HQ_Caffeteria_Xander_MCScrawny]]>>
+                            <<goto "HQ_Caffeteria_Xander_MCScrawny">>
                         <</if>>
                     <</replace>>
                 <</cont>>
@@ -60,7 +60,7 @@
                     <</replace>>
                     <<cont keypress>>
                         <<replace '#exposition'>>\
-                            <<goto [[HQ_Caffeteria_Xander_MCScrawny]]>>
+                            <<goto "HQ_Caffeteria_Xander_MCScrawny">>
                         <</replace>>
                     <</cont>>
                 <</cont>>
@@ -195,7 +195,7 @@
         <</replace>>
         <<cont keypress>>
             <<replace '#exposition'>>\
-                <<goto [[HQ_Caffeteria_Xander_dateConverge]]>>
+                <<goto "HQ_Caffeteria_Xander_dateConverge">>
             <</replace>>
         <</cont>>
     <</cont>>
@@ -215,7 +215,7 @@
         <</replace>>
         <<cont keypress>>
             <<replace '#exposition'>>\ 
-                <<goto [[HQ_Caffeteria_Xander_Converge]]>>
+                <<goto "HQ_Caffeteria_Xander_dateConverge">>
             <</replace>>
         <</cont>>
     <</cont>>
@@ -393,6 +393,7 @@
                                                             <</replace>>
                                                         <</cont>>
                                                     /* Вставить следующий сегмент СОЗЫВ */
+                                                    <</cont>>
                                                 <</cont>>
                                             <</cont>>
                                         <</cont>>

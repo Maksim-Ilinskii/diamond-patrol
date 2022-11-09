@@ -45,7 +45,7 @@
                                         <</replace>>
                                         <<cont keypress>>
                                             <<replace '#exposition'>>
-                                                <<goto [[HQ_3_Xander_Start]]>>  
+                                                <<goto "HQ_3_Xander_Start">>  
                                             <</replace>>
                                         <</cont>>
                                     <</cont>>
@@ -63,9 +63,9 @@
 :: HQ_3_Xander_Start
 
 <<if $gotDressed == true && $closeCanopy == true>>
-    <<goto [[HQ_3_Xander_2]]>>
+    <<goto "HQ_3_Xander_2">>
 <<else>>
-    <<goto [[HQ_3_Xander_1]]>>
+    <<goto "HQ_3_Xander_1">>
 <</if>>
 
 
@@ -88,11 +88,11 @@
             <<cont keypress>>
                 <<replace '#exposition'>>
                     <<if $gotDressed == false && $closesCanopy == true>>
-                        <<goto [[HQ_3_Xander_1_1]]>>
+                        <<goto "HQ_3_Xander_1_1">>
                     <<elseif $gotDressed == false && $closeCanopy == false>>
-                        <<goto [[HQ_3_Xander_1_2]]>>
+                        <<goto "HQ_3_Xander_1_2">>
                     <<elseif $gotDressed == true && $closeCanopy == false>>
-                        <<goto [[HQ_3_Xander_1_2]]>>
+                        <<goto "HQ_3_Xander_1_2">>
                     <</if>>
                 <</replace>>
             <</cont>>
@@ -123,7 +123,7 @@
                 <</replace>>
                 <<cont keypress>>
                     <<replace '#exposition'>>\
-                        <<goto [[HQ_3_Xander_Finish]]>>
+                        <<goto "HQ_3_Xander_Finish">>
                     <</replace>>
                 <</cont>>
             <</cont>>
@@ -209,7 +209,7 @@
                                                                 <</replace>>
                                                                 <<cont keypress>>
                                                                     <<replace '#exposition'>>
-                                                                        <<goto [[HQ_3_Xander_Finish]]>>
+                                                                        <<goto "HQ_3_Xander_Finish">>
                                                                     <</replace>>
                                                                 <</cont>>
                                                             <</cont>>
@@ -339,7 +339,7 @@
             <</replace>>
             <<cont keypress>>
                 <<replace '#exposition'>>\
-                    <<goto [[HQ_4_CullenFirstMet]]>>
+                    <<goto "HQ_4_CullenFirstMet">>
                 <</replace>>
             <</cont>>
         <</cont>>

@@ -91,7 +91,7 @@
                                                                     <</replace>>
                                                                     <<cont keypress>>
                                                                         <<replace '#exposition'>>\
-                                                                            <<goto [[HQ_Caffeteria]]>>
+                                                                            <<goto "HQ_Caffeteria">>
                                                                         <</replace>>
                                                                     <</cont>>
                                                                 <</cont>>
@@ -134,7 +134,7 @@
                         <<pli>>Я перестала отжиматься и отряхнула руки.<</pli>>
                     <</replace>>
                         <<replace '#exposition'>>\
-                            <<goto [[HQ_Caffeteria]]>>
+                            <<goto "HQ_Caffeteria">>
                         <</replace>>
                 <</cont>>
             <</cont>>

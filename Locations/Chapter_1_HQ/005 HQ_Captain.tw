@@ -241,7 +241,7 @@
                                                                         <</replace>>
                                                                         <<cont keypress>>
                                                                             <<replace '#exposition'>>\
-                                                                                <<goto [[HQ_Captain_Pushups]]>>
+                                                                                <<goto "HQ_Captain_Pushups">>
                                                                             <</replace>>
                                                                         <</cont>>
                                                                     <</cont>>         
@@ -276,7 +276,7 @@
 <<silently>>    
     <<cont keypress>>
         <<replace '#exposition'>>\
-            <<goto [[HQ_Captain_Pushups]]>>
+            <<goto "HQ_Captain_Pushups">>
         <</replace>>
     <</cont>>
 <</silently>>
@@ -414,7 +414,7 @@
                                                             <<cont keypress>>
                                                                 <<replace '#exposition'>>
                                                                     <<if $gotDressed == true>>
-                                                                        <<goto [[HQ_Captain_Pushups_Maclachlan_Dressed]]>>
+                                                                        <<goto "HQ_Captain_Pushups_Maclachlan_Dressed">>
                                                                     <<else>>
                                                                         [[HQ_Captain_Pushups_Maclachlan_NotDressed]]
                                                                     <</if>>

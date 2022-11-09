@@ -19,7 +19,7 @@
         <</replace>>
         <<cont keypress>>
             <<replace '#exposition'>>\
-                <<goto [[HQ_4_Cullen_Description]]>>
+                <<goto "HQ_4_Cullen_Description">>
             <</replace>>
         <</cont>>
     <</cont>>
@@ -57,7 +57,7 @@
                         <</replace>>
                         <<cont keypress>>
                             <<replace '#exposition'>>\
-                                <<goto [[HQ_4_CullenFirstMet_1]]>>
+                                <<goto "HQ_4_CullenFirstMet_1">>
                             <</replace>>
                         <</cont>>
                     <</cont>>
@@ -108,7 +108,7 @@
                         <</replace>>
                         <<cont keypress>>
                             <<replace '#exposition'>>\
-                                <<goto [[HQ_4_Cullen_SayAsIs]]>>
+                                <<goto "HQ_4_Cullen_SayAsIs">>
                             <</replace>>
                         <</cont>>
                     <</cont>>
@@ -129,11 +129,11 @@
     <<cont keypress>>
         <<replace '#exposition'>>\
             <<if $gotDressed == true && $closeCanopy == true>>
-                <<goto [[HQ_4_Cullen_SayAsIs_1]]>>
+                <<goto "HQ_4_Cullen_SayAsIs_1">>
             <<elseif $closeCanopy == false>>
-                <<goto [[HQ_4_Cullen_SayAsIs_2]]>>
+                <<goto "HQ_4_Cullen_SayAsIs_2">>
             <<else>>
-                <<goto [[HQ_4_Cullen_SayAsIs_1]]>>
+                <<goto "HQ_4_Cullen_SayAsIs_1">>
             <</if>>
         <</replace>>
     <</cont>>
@@ -152,7 +152,7 @@
 <<silently>>
     <<cont keypress>>
         <<replace '#exposition'>>\
-            <<goto [[HQ_4_Cullen_SayAsIs_3]]>>
+            <<goto "HQ_4_Cullen_SayAsIs_3">>
         <</replace>>
     <</cont>>
 <</silently>>
@@ -199,7 +199,7 @@
                                 <</replace>>
                                 <<cont keypress>>\
                                     <<replace '#exposition'>>\
-                                        <<goto [[HQ_4_Cullen_SayAsIs_3]]>>
+                                        <<goto "HQ_4_Cullen_SayAsIs_3">>
                                     <</replace>>
                                 <</cont>>
                             <</cont>>
@@ -376,11 +376,11 @@
                                                             <<cont keypress>>\
                                                                 <<replace '#exposition'>>\
                                                                     <<if $gotDressed == false && $closeCanopy == true>>
-                                                                        <<goto [[HQ_Captain_WhenNotLate]]>>
+                                                                        <<goto "HQ_Captain_WhenNotLate">>
                                                                     <<elseif $gotDressed == true || $closeCanopy == false>>
-                                                                        <<goto [[HQ_Captain_WhenLate]]>>
+                                                                        <<goto "HQ_Captain_WhenLate">>
                                                                     <<else>>
-                                                                        <<goto [[HQ_Captain_WhenNotLate]]>>
+                                                                        <<goto "HQ_Captain_WhenNotLate">>
                                                                     <</if>>
                                                                 <</replace>>
                                                             <</cont>>
@@ -492,13 +492,13 @@
                                                                             <<cont keypress>>\
                                                                                 <<replace '#exposition'>>
                                                                                     <<if $gotDressed == false && $closeCanopy == true>>
-                                                                                        <<goto [[HQ_Captain_WhenNotLate]]>>
+                                                                                        <<goto "HQ_Captain_WhenNotLate">>
                                                                                     <<elseif 
                                                                                         $gotDressed == true || $closeCanopy == false>>
                                                                                         >>
-                                                                                        <<goto [[HQ_Captain_WhenLate]]>>
+                                                                                        <<goto "HQ_Captain_WhenLate">>
                                                                                     <<else>>
-                                                                                        <<goto [[HQ_Captain_WhenNotLate]]>>
+                                                                                        <<goto "HQ_Captain_WhenNotLate">>
                                                                                     <</if>>
                                                                                 <</replace>>
                                                                             <</cont>>

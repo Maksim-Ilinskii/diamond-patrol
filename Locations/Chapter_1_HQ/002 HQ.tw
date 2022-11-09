@@ -14,11 +14,11 @@
         <<cont keypress>>
             <<replace '#exposition'>>\
                 <<if $gotDressed == false && $closeCanopy == true>>
-                    <<goto [[HQ_2_Success]]>>
+                    <<goto "HQ_2_Success">>
                 <<elseif $gotDressed == true || $closeCanopy == false>>
-                    <<goto [[HQ_2_Faulty]]>>
+                    <<goto "HQ_2_Faulty">>
                 <<else>>
-                    <<goto [[HQ_2_Success]]>>
+                    <<goto "HQ_2_Success">>
                 <</if>>
             <</replace>>
         <</cont>>
@@ -66,7 +66,7 @@
         <</replace>>
         <<cont keypress>>
             <<replace '#exposition'>>\
-                <<goto [[HQ_3_Xander]]>>
+                <<goto "HQ_3_Xander">>
             <</replace>>
         <</cont>>
     <</cont>>
@@ -83,7 +83,7 @@
 <<silently>>
     <<cont keypress>>
         <<replace '#exposition'>>\
-            <<goto [[HQ_3_Xander]]>>
+            <<goto "HQ_3_Xander">>
         <</replace>>
     <</cont>>
 <</silently>>
