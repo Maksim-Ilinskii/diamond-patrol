@@ -93,6 +93,8 @@
                         <<goto "HQ_3_Xander_1_2">>
                     <<elseif $gotDressed == true && $closeCanopy == false>>
                         <<goto "HQ_3_Xander_1_2">>
+                    <<else>>
+                        <<goto "HQ_3_Xander_1_1">>
                     <</if>>
                 <</replace>>
             <</cont>>
