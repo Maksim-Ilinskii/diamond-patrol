@@ -65,7 +65,9 @@
            <<pli>> К счастью, он делал обход в другом конце шеренги.<</pli>>
         <</replace>>
         <<cont keypress>>
-            <<goto [[HQ_3_Xander]]>>
+            <<replace '#exposition'>>\
+                <<goto [[HQ_3_Xander]]>>
+            <</replace>>
         <</cont>>
     <</cont>>
 <</silently>>

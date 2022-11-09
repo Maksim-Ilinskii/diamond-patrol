@@ -300,8 +300,8 @@
             <</replace>>
             <<cont keypress>>
                 <<replace '#exposition'>>\
-                    <div class="shake"><<capt>>Один!<</capt>>
-                    <div class="button">[[Отжаться|HQ_Captain_Pushups_1]]</div></div>\
+                    <div class="shake"><<capt>>Один!<</capt>>\
+                    <div class="button">[[Отжаться|HQ_Captain_Pushups_1]]</div></div>
                 <</replace>>
             <</cont>>
         <</cont>>
@@ -329,11 +329,109 @@
 
 :: HQ_Captain_Pushups_4
 
-<div class="shakestremely"><<capt>>Пять!<</capt>>\
-<div class="button">[[Отжаться|HQ_Captain_Pushups_Xander]]</div></div>
+@@#exposition;\
+<div class="shakestremely"><<capt>>Пять! Шесть! Семь! Восемь!<</capt>>\
+@@
 
+
+<<silently>>    
+    <<cont keypress>>
+        <<replace '#exposition'>>\
+            <<goto [[|HQ_Captain_Pushups_Xander]]>>
+        <</replace>>
+    <</cont>>
+<</silently>>
+
+<<silently>>
+    <<timed 10s>>
+        <<goto [[|HQ_Captain_Pushups_Xander]]>>
+    <</timed>>
+<</silently>>
 
 :: HQ_Captain_Pushups_Xander
 
+@@#exposition;\
+<<capt>>Живее, Цунами! Враг не будет ждать вас целую минуту, пока вы припудрите носик! <</capt>>
+@@
 
-
+<<silently>>    
+    <<cont keypress>>
+        <<replace '#exposition'>>\
+            <<xander>>При всём уважении, Кэп, вы зря раздуваете из мухи слона.<</xander>>
+        <</replace>>
+        <<cont keypress>>
+            <<replace '#exposition'>>\
+                <<xander>>В боевой ситуации враг не будет ждать. А мы же в ней не находимся.<</xander>>
+            <</replace>>
+            <<cont keypress>>
+                <<replace '#exposition'>>\
+                    <<capt>>Если мне понадобится мнение кнопочного героя — обязательно спрошу тебя, Уорант "Жестянка" Кайтон.<</capt>>
+                <</replace>>
+                <<cont keypress>>
+                    <<replace '#exposition'>>\
+                        <<capt>>К сожалению, наше славное правительство Альянса хочет держать тебя поближе, от греха подальше — простите за каламбур.<</capt>>
+                    <</replace>>
+                    <<cont keypress>>
+                        <<replace '#exposition'>>\
+                            <<capt>>Если бы не ты не был лучшим хакером в мире, давно бы выставил твою железную задницу на мороз.<</capt>>
+                        <</replace>>
+                        <<cont keypress>>
+                            <<replace '#exposition'>>\
+                                <<xander>>О, кэп. На курок я жму не хуже кнопок. И довожу до вашего сведения: задница у меня мягкая — и даже с подогревом.<</xander>>
+                            <</replace>>
+                            <<cont keypress>>
+                                <<replace '#exposition'>>\
+                                    <<xander>>Можете сами проверить.<</xander>>
+                                <</replace>>
+                                <<cont keypress>>
+                                    <<replace '#exposition'>>\
+                                        <<pli>>Ксандр демонстративно приспустил штаны с ехидной улыбкой под всеобщий хохот.<</pli>>
+                                    <</replace>>
+                                    <<cont keypress>>
+                                        <<replace '#exposition'>>\
+                                            <<pli>>Я чуть не умерла от смеха и смущения, но стойко продолжала отжиматься.<</pli>>
+                                        <</replace>>
+                                        <<cont keypress>>
+                                            <<replace '#exposition'>>\
+                                                <<capt>>Ах ты... А ну, отставить хохот! Сейчас все у меня в наряд пойдёте!<</capt>>
+                                            <</replace>>
+                                            <<cont keypress>>
+                                                <<replace '#exposition'>>\
+                                                    <<pli>>Смешки стали чуть сдавленнее, и при этом продолжались ещё с минуту. <</pli>>
+                                                <</replace>>
+                                                <<cont keypress>>
+                                                    <<replace '#exposition'>>\
+                                                        <<pln>>"Не пойму, это Ксандр вступился за меня так?"<</pln>> 
+                                                    <</replace>>
+                                                    <<cont keypress>>
+                                                        <<replace '#exposition'>>\
+                                                            <<pln>>"Обычно от него исходят дурацкие подколы в мою сторону, хотя они добрые и смешат меня каждый раз."<</pln>>
+                                                        <</replace>>
+                                                        <<cont keypress>>
+                                                            <<replace '#exposition'>>
+                                                                <<pli>>Мои мысли прервал Каллен.<</pli>>
+                                                            <</replace>>
+                                                            <<cont keypress>>
+                                                                <<replace '#exposition'>>
+                                                                    <<if $gotDressed == true>>
+                                                                        <<goto [[HQ_Captain_Pushups_Maclachlan_Dressed]]>>
+                                                                    <<else>>
+                                                                        [[HQ_Captain_Pushups_Maclachlan_NotDressed]]
+                                                                    <</if>>
+                                                                <</replace>>
+                                                            <</cont>>
+                                                        <</cont>>
+                                                    <</cont>>
+                                                <</cont>>
+                                            <</cont>>
+                                        <</cont>>
+                                    <</cont>>
+                                <</cont>>
+                            <</cont>>
+                        <</cont>>
+                    <</cont>>
+                <</cont>>
+            <</cont>>
+        <</cont>>
+    <</cont>>
+<</silently>>

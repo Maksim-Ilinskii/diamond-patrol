@@ -13,12 +13,6 @@
 
 :: StoryMenu {"position":"0,1000"}
 
-[[Отношения|Stats]]
-
-:: Stats {"position":"0,875"}
-<h2>Отношения с персонажами</h2>
-Ксандр — <<print $Xander.relationship>>
-
 
 
 
