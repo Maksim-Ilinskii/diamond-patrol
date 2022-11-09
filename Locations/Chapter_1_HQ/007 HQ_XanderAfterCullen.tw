@@ -365,24 +365,33 @@
                                 <</replace>>
                                 <<cont keypress>>
                                     <<replace '#exposition'>>\ 
-                                        <<pln>>Ой, ну прям, неженка нашёлся. Не придуривайся, у тебя корпус хромирован. Хотя мой отец учил меня боксу.<</pln>>
+                                        <<pln>>Ой, ну прям, неженка нашёлся. Не придуривайся, у тебя корпус внутри хромирован. <</pln>>
                                     <</replace>>
                                     <<cont keypress>>
                                         <<replace '#exposition'>>\ 
-                                            <<xander>>А вот как быть леди он тебя не научил, явно.<</xander>>
+                                            <<xander>>Снаружи я всё чувствую, между прочим.<</xander>>
                                         <</replace>>
                                         <<cont keypress>>
                                             <<replace '#exposition'>>\ 
-                                                <<pln>>Эй, обидно! Я ведь могу и взаправду стукнуть!<</pln>>
+                                                <<pln>>А, ну тогда отлично — мой отец учил меня боксу.<</pln>>
                                             <</replace>>
                                             <<cont keypress>>
                                                 <<replace '#exposition'>>\ 
-                                                    <<xander>>Ладно-ладно, ты настоящая леди. Не стоит портить свои нежные ручки.<</xander>>
+                                                    <<xander>>А вот как быть леди он тебя явно не учил.<</xander>>
                                                 <</replace>>
                                                 <<cont keypress>>
                                                     <<replace '#exposition'>>\ 
-                                                        <<pln>>Так-то лучше!<</pln>>
+                                                        <<pln>>Эй! Я ведь и в самом деле стукнуть могу!<</pln>>
                                                     <</replace>>
+                                                    <<cont keypress>>
+                                                        <<replace '#exposition'>>\
+                                                            <<xander>>Ладно-ладно, ты настоящая леди. Не стоит портить свои нежные ручки.<</xander>>
+                                                        <</replace>>
+                                                        <<cont keypress>>
+                                                            <<replace '#exposition'>>
+                                                                <<pln>>Так-то лучше.<</pln>>
+                                                            <</replace>>
+                                                        <</cont>>
                                                     /* Вставить следующий сегмент СОЗЫВ */
                                                 <</cont>>
                                             <</cont>>
