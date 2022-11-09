@@ -65,14 +65,33 @@
                                                             <</replace>>
                                                             <<cont keypress>>
                                                                 <<replace '#exposition'>>\
-                                                                    <<if $closeCanopy == false && $gotDressed == true>>
-                                                                        <<pln>>"Вот угораздило меня не закрыть крышку кабины и испортить свой видок. А ведь так старалась!"<</pln>>
-                                                                    <<elseif $closeCanopy == true && $gotDressed == false>>
-                                                                        <<pln>>"Фух, кажется, пронесло. Уж лучше пусть отчитывает меня за мой видок, чем слушать получасовые лекции об опоздании и рисковать вылететь."<</pln>>
-                                                                    <<else>>
-                                                                        <<pln>>"Эх, вот угораздило меня не закрыть крышку кабины и испортить свой видок. А ведь так старалась!"<</pln>>
-                                                                    <</if>>
+                                                                <<cul>>Кэп, надо поговорить. Появились нюансы.<</cul>>
                                                                 <</replace>>
+                                                                <<cont keypress>>
+                                                                    <<replace '#exposition'>>\
+                                                                        <<pli>>Внезапно ворвался Каллен<</pli>>
+                                                                    <</replace>>
+                                                                    <<cont keypress>>
+                                                                        <<replace '#exposition'>>\
+                                                                            <<pln>>"Фух, пронесло. Уж лучше Кэп отчитывает меня за мой видок, чем слушать получасовые лекции об опоздании и рисковать вылететь с вещами на мороз."<</pln>>
+                                                                        <</replace>>
+                                                                        <<cont keypress>>
+                                                                            <<replace '#exposition'>>
+                                                                                <<capt>> Всем вольно, увидимся через час здесь же.<</capt>>
+                                                                            <</replace>>
+                                                                            <<cont keypress>>
+                                                                                <<replace '#exposition'>>
+                                                                                    <<pli>> Приказал Капитан.<</pli>>
+                                                                                <</replace>>
+                                                                                <<cont keypress>>
+                                                                                    <<replace '#exposition'>>
+                                                                                        <<goto "HQ_Caffeteria">>
+                                                                                    <</replace>>
+                                                                                <</cont>>
+                                                                            <</cont>>
+                                                                        <</cont>>
+                                                                    <</cont>>
+                                                                <</cont>>
                                                             <</cont>>
                                                         <</cont>>
                                                     <</cont>>
