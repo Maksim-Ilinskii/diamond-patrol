@@ -330,7 +330,7 @@
 :: HQ_Captain_Pushups_4
 
 @@#exposition;\
-<div class="shakestremely"><<capt>>Пять! Шесть! Семь! Восемь!<</capt>></div>\
+<div class="shakestremely"><<capt>>Пять! Шесть! Семь! Восемь!<</capt>></div>
 @@
 
 
@@ -373,7 +373,7 @@
                     <</replace>>
                     <<cont keypress>>
                         <<replace '#exposition'>>\
-                            <<capt>>Если бы не ты не был лучшим хакером в мире, давно бы выставил твою железную задницу на мороз.<</capt>>
+                            <<capt>>Если бы ты не был одним из лучших хаккеров в этой грёбаной вселенной, давно бы выставил твою железную задницу на мороз.<</capt>>
                         <</replace>>
                         <<cont keypress>>
                             <<replace '#exposition'>>\
