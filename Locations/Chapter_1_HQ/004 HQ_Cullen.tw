@@ -80,36 +80,41 @@
 :: HQ_4_Cullen_Joke
 
 @@#exposition;\
-    <<cul>>Ой!<</cul>>
+    <<cul>>Ой, а у самого-то ширинка расстёгнута!<</cul>>
 @@
 
 <<silently>>
     <<cont keypress>>
         <<replace '#exposition'>>\
-            <<pli>>Каллен покраснел и потянулся к паху.<</pli>>
+            Ой!
         <</replace>>
         <<cont keypress>>
             <<replace '#exposition'>>\
-                <<cul>>Ах, ты...! Чуть не подловила!<</cul>>
+                <<pli>>Каллен покраснел и потянулся к паху.<</pli>>
             <</replace>>
             <<cont keypress>>
-                <<replace '#exposition'>> \
-                    <<pli>>Рассмеялся Каллен.<</pli>>
+                <<replace '#exposition'>>\
+                    <<cul>>Ах, ты...! Чуть не подловила!<</cul>>
                 <</replace>>
                 <<cont keypress>>
-                    <<replace '#exposition'>>\
-                        <<cul>>Постоянно забываю: наши костюмы — полная герметика, ни единого шва!<</cul>>
+                    <<replace '#exposition'>> \
+                        <<pli>>Рассмеялся Каллен.<</pli>>
                     <</replace>>
                     <<cont keypress>>
                         <<replace '#exposition'>>\
-                            <div class="fadeout devn">Ты начинаешь нравиться Каллену!</div>
-
-                            <<cul>>Так что с тобой произошло?<</cul>>
+                            <<cul>>Постоянно забываю: наши костюмы — полная герметика, ни единого шва!<</cul>>
                         <</replace>>
                         <<cont keypress>>
                             <<replace '#exposition'>>\
-                                <<goto "HQ_4_Cullen_SayAsIs">>
+                                <div class="fadeout devn">Ты начинаешь нравиться Каллену!</div>
+
+                                <<cul>>Так что с тобой произошло?<</cul>>
                             <</replace>>
+                            <<cont keypress>>
+                                <<replace '#exposition'>>\
+                                    <<goto "HQ_4_Cullen_SayAsIs">>
+                                <</replace>>
+                            <</cont>>
                         <</cont>>
                     <</cont>>
                 <</cont>>
