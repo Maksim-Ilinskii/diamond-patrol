@@ -27,7 +27,7 @@
     <<cont keypress>>
         <<replace '#exposition'>>\
             Мгновение — и я оказалась на высоте 300 км от земли.
-            <img src="Media/Locations/canopy opened sky.png" width=650px>
+            <img src="Media/Locations/canopy opened sky.jpg" width=650px>
         <</replace>>
         <<cont keypress>>
             <<replace '#exposition'>>\
@@ -450,9 +450,9 @@
 
 @@#exposition;\
 <<if $closeCanopy == true>>
-    <img src="Media/Locations/canopy close to hq.png" width=650px>
+    <img src="Media/Locations/canopy close to hq.jpg" width=650px>
 <<else>>
-    <img src="Media/Locations/canopy space foamed copy.png" width=650px>
+    <img src="Media/Locations/canopy space foamed copy.jpg" width=650px>
 <</if>>
 @@
 

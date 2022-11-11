@@ -9,7 +9,7 @@
 <<silently>>
     <<cont keypress>>
         <<replace '#exposition'>>\
-            <<pli>> Я села за белоснежнокруглый стол, какими были и стены помещения. Хотя ничего примечательного в кафетерии не было, зато еда была вкусной, и гораздо качественнее той, что ели на Земле.<</pli>>
+            <<pli>> Я села за белоснежно-круглый стол, какими были и стены помещения. Хотя ничего примечательного в кафетерии не было, зато еда была вкусной, и гораздо качественнее той, что ели на Земле.<</pli>>
         <</replace>>
         <<cont keypress>>
             <<replace '#exposition'>>\
@@ -17,7 +17,7 @@
             <</replace>>
             <<cont keypress>>
                 <<replace '#exposition'>>\
-                    <<pli>> Пока я ела, в кафетерий вольяжно вошёл Ксандр и подсел ко мне.<</pli>>
+                    <<pli>> Пока я ела, в кафетерий вальяжно вошёл Ксандр и подсел ко мне.<</pli>>
                 <</replace>>
                 <<cont keypress>>
                     <<replace '#exposition'>>\
@@ -32,6 +32,9 @@
         <</cont>>
     <</cont>>
 <</silently>>
+
+
+
 
 :: HQ_Caffeteria_Xander_MCDressed
 
@@ -84,7 +87,11 @@
 <<silently>>
     <<cont keypress>>
         <<replace '#exposition'>>\
-            <<pli>>Заявил Ксандр без каких-либо прилюдий.<</pli>>
+            <<if $gotDressed == true>>
+                <<pli>>Заявил Ксандр.<</pli>>
+            <<else>>
+                <<pli>>Заявил Ксандр без каких-либо прелюдий.<</pli>>
+            <</if>>
         <</replace>>
         <<cont keypress>>
             <<replace '#exposition'>>\
@@ -142,6 +149,7 @@
 <</silently>>
                                     
 
+
 :: HQ_Caffeteria_Xander_Tactful
 
 @@#exposition;\ 
@@ -163,7 +171,7 @@
                 <</replace>>
                 <<cont keypress>>
                     <<replace '#exposition'>>\ 
-                        <<pln>>"Ну ответил так ответил..."<</pln>>
+                        <<pln>>"Ну ответил, так ответил..."<</pln>>
                         [["И это всё?"|HQ_Caffeteria_Xander_IsThatIt]]
                         [["Что ещё ты любишь?"|HQ_Caffeteria_Xander_WhatElse]]
                     <</replace>>
@@ -227,7 +235,7 @@
         <</replace>>
         <<cont keypress>>
             <<replace '#exposition'>>\ 
-                <<pln>>Ишь, какой. Я же ещё не дала согласие.<</pln>>
+                <<pln>>Ишь, какой. Я же ещё не дала согласия.<</pln>>
                 [[Согласиться|HQ_Caffeteria_Xander_dateAgree]]
                 [[Отказать|HQ_Caffeteria_Xander_dateRefuse]]
             <</replace>>
