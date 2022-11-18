@@ -11,5 +11,6 @@
 <div class="backbutton"><<return ✖️>></div>
     <div style="display:flex;"><h1>Отношения</h1>
     Ксандр — <<print $Xander.relationship>>
+    Кайтон - <<print $Cullen.relationship>>
     </div>
 </div>
