@@ -1,0 +1,15 @@
+<<include Variables>>
+
+:: Convoy_Start
+
+@@
+Я бросилась в Кабину, а к Каллен к Капитанскому мосту.
+@@
+
+<<silently>>
+    <<cont keypress>>
+        <<replace '#exposition'>>\ 
+             Оттуда он мог оперировать дополнительным оружием. 
+        <</replace>>
+    <</cont>>
+<</silently>>

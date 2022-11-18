@@ -59,4 +59,6 @@
 
     <<set $xanderMentionedSpecOps = false>>
     <<set $xanderdateAccepted = false>>
+    
+    <<set $cullenJoinsConvoy = false>>
 <</silently>>\

@@ -43,19 +43,19 @@
                                         <</replace>>
                                         <<cont keypress>>
                                             <<replace '#exposition'>>\ 
-                                                <<capt>>"Цунами", полетишь со мной и Жестянкой.<</capt>>
+                                                <<capt>>"Цунами", полетишь со Стингером и Жестянкой.<</capt>>
                                             <</replace>>
                                             <<cont keypress>>
                                                 <<replace '#exposition'>>\ 
-                                                    <<cul>>Капитан, позвольте мне лететь вместо вас. Прослежу за младшим лейтенантом как следует.<</cul>>
+                                                    <<capt>>Маклахлан, отчитываться будешь каждые полчаса о работе Цунами. Не хочу потерять очередной челнок из-за неё.<</capt>>
                                                 <</replace>>
                                                 <<cont keypress>>
                                                     <<replace '#exposition'>>\ 
-                                                        <<pli>>Улыбнулся он.<</pli>>
+                                                        Прослежу за ней как следует, кэп. 
                                                     <</replace>>
                                                     <<cont keypress>>
                                                         <<replace '#exposition'>>\ 
-                                                            <<capt>>Окей, Стингер. Но отчитываться будешь каждые полчаса. Не хочу потерять очередной челнок из-за Цунами.<</capt>>
+                                                            Каллен улыбнулся и подмигнул мне.
                                                         <</replace>>
                                                         <<cont keypress>>
                                                             <<replace '#exposition'>>\ 
@@ -77,6 +77,11 @@
                                                                             <<replace '#exposition'>>\ 
                                                                                 <<pli>> Но раз это всего лишь учебное конвоирование, думаю, всё пройдёт гладко.<</pli>>
                                                                             <</replace>>
+                                                                            <<cont keypress>>
+                                                                                <<replace '#exposition'>>
+                                                                                    <<goto "Convoy_Start">>
+                                                                                <</replace>>
+                                                                            <</cont>>
                                                                         <</cont>>
                                                                     <</cont>>
                                                                 <</cont>>
