@@ -1,15 +1,15 @@
 :: StoryCaption [data] {"position":"0,200"}
 
-     <span class="params">
-     👮🏻‍♀️ <<= $Player.lawmaker>>&nbsp;&nbsp;👺 <<= $Player.renegate>>&nbsp;&nbsp;🔍 <<= $Player.detective>>&nbsp;&nbsp;🚀 <<= $Player.ace>>&nbsp;<span class="lovebutton">
-    [[💞|Stats]]</span>
-    </span>
+     <div class="params">
+     👮🏻‍♀️ <<= $Player.lawmaker>>&nbsp;&nbsp;👺 <<= $Player.renegate>>&nbsp;&nbsp;🔍 <<= $Player.detective>>&nbsp;&nbsp;🚀 <<= $Player.ace>>&nbsp;
+    </div><div class="lovebutton">
+    [[💞|Stats]]</div>
 
 :: Stats {"position":"0,875"}
 
 <div class="lovebox">
 <div class="backbutton"><<return ✖️>></div>
-    <div style="display:flex;"><h1>Отношения</h1>
+    <div style="display:block;"><h1>Отношения</h1>
     Ксандр — <<print $Xander.relationship>>
     Кайтон - <<print $Cullen.relationship>>
     </div>

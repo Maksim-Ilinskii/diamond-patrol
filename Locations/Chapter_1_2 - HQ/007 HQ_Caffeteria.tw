@@ -142,7 +142,7 @@
                                             <<cont keypress>>
                                                 <<replace '#exposition'>>\
                                                     <<pli>>Надо было ему что-то сказать.<</pli>>\
-                                                    <div class="button">[[Тактично настаивать на своём|HQ_Caffeteria_Xander_Tactful]]</div>
+                                                    <div class="button">[[Тактично настаивать|HQ_Caffeteria_Xander_Tactful]]</div>
                                                     <div class="button">    [["Хочу узнать тебя получше"|HQ_Caffeteria_Xander_WannaKnowBetter]]
                                                     </div>
                                                 <</replace>>
