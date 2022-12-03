@@ -9,7 +9,8 @@ h1#story-title {
 	color: rgb(128, 6, 165)
 }
 
-#passages {  
+#passages {
+	align-content: center;
 	display: block;
 	margin-top: 180px !important;
 	padding-left: 0px !important;
@@ -1360,7 +1361,7 @@ animation-iteration-count: infinite;
 	#menu-item-saves a:hover {
 		text-decoration: none;
 		box-shadow: 0px 0px 0px 0px;
-		top: -5px;
+		top: 5px;
 		left: 755px !important;
 	}
 	
