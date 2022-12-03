@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 
-
 /* Форматирование основного текста */
 
 h1#story-title {
@@ -23,7 +22,7 @@ h1#story-title {
     color: bisque;
 }
 
-pssg
+/* pssg */
 
 .padbig {
     padding-top: 100px;
@@ -1335,7 +1334,7 @@ animation-iteration-count: infinite;
 	}
 	
 	#menu-item-saves a {
-		display: block;
+		display: inline-flex;
 		color: rgb(151, 38, 173) !important;
 		width: 16px;
 		font-family: 'Russo One', sans-serif;
@@ -1349,13 +1348,20 @@ animation-iteration-count: infinite;
 		border: 2px solid !important;
 		border-color: rgb(151, 38, 173)!important;
 		cursor: pointer;
-		padding: 0px 16px !important;
+		padding: 0px 14px 0 0px !important;
 		position: relative;
 		user-select: none;
 		-webkit-user-select: none;
 		touch-action: manipulation;
 		margin-top:-90px;
-		margin-left: 10px
+		left: 750px;
+	}
+
+	#menu-item-saves a:hover {
+		text-decoration: none;
+		box-shadow: 0px 0px 0px 0px;
+		top: -5px;
+		left: 755px !important;
 	}
 	
 	#menu a:hover {
@@ -1380,13 +1386,13 @@ animation-iteration-count: infinite;
 		border: 2px solid !important ;
 		border-color: rgb(151, 38, 173) !important;
 		cursor: pointer;
-		padding: 0px 16px !important;
+		padding: 0px 14px 0px 0px !important;
 		position: relative;
 		user-select: none;
 		-webkit-user-select: none;
 		touch-action: manipulation;
 		margin-top: -90px;
-		margin-left: 30px;
+		margin-left: 10px;
 	}
 	
 	#menu-item-restart a:hover {

@@ -97,9 +97,9 @@
 <<silently>>
     <<cont keypress>>
         <<replace '#exposition'>>\
-            <<if $gotDressed == true>>
+            <<if $gotDressed == true>>\
                 <<pli>>Заявил Ксандр.<</pli>>
-            <<else>>
+            <<else>>\
                 <<pli>>Заявил Ксандр без каких-либо прелюдий.<</pli>>
             <</if>>
         <</replace>>
@@ -141,9 +141,10 @@
                                             <</replace>>
                                             <<cont keypress>>
                                                 <<replace '#exposition'>>\
-                                                    <<pli>>Надо было ему что-то сказать.<</pli>>
-                                                    [[Тактично настаивать на своём|HQ_Caffeteria_Xander_Tactful]]
-                                                    [["Хочу узнать тебя получше"|HQ_Caffeteria_Xander_WannaKnowBetter]]
+                                                    <<pli>>Надо было ему что-то сказать.<</pli>>\
+                                                    <div class="button">[[Тактично настаивать на своём|HQ_Caffeteria_Xander_Tactful]]</div>
+                                                    <div class="button">    [["Хочу узнать тебя получше"|HQ_Caffeteria_Xander_WannaKnowBetter]]
+                                                    </div>
                                                 <</replace>>
                                             <</cont>>
                                         <</cont>>
@@ -182,8 +183,8 @@
                 <<cont keypress>>
                     <<replace '#exposition'>>\ 
                         <<pln>>"Ну ответил, так ответил..."<</pln>>
-                        [["И это всё?"|HQ_Caffeteria_Xander_IsThatIt]]
-                        [["Что ещё ты любишь?"|HQ_Caffeteria_Xander_WhatElse]]
+                        <div class="button">[["И это всё?"|HQ_Caffeteria_Xander_IsThatIt]]</div>
+                        <div class="button">[["Что ещё ты любишь?"|HQ_Caffeteria_Xander_WhatElse]]</div>
                     <</replace>>
                 <</cont>>
             <</cont>>
@@ -266,8 +267,8 @@
                             <<cont keypress>>
                                 <<replace '#exposition'>>\ 
                                     <<pli>>Хоть Ксандр и мой друг, я не знала, какую игру он вёл. Может это просто уловка, чтобы вытащить меня на свидание? Я уже прежде имела дело с интриганами и терпеть не могла эти пикаперские трюки.<</pli>>\
-                                    [[Согласиться|HQ_Caffeteria_Xander_dateAgree]]
-                                    [[Отказать|HQ_Caffeteria_Xander_dateRefuse]]
+                                    <div class="button">[[Согласиться|HQ_Caffeteria_Xander_dateAgree]]</div>
+                                    <div class="button">[[Отказать|HQ_Caffeteria_Xander_dateRefuse]]</div>
                                 <</replace>>
                             <</cont>>
                         <</cont>>
@@ -373,9 +374,9 @@
                 <<cont keypress>>
                     <<replace '#exposition'>>\ 
                         <<pln>>Ксандр...<</pln>>
-                        [["И это всё?"|HQ_Caffeteria_Xander_IsThatIt]]
-                        [["Что ещё ты любишь?"|HQ_Caffeteria_Xander_WhatElse]]
-                        [[Обидеться самой|HQ_Caffeteria_Xander_Pout]]
+                        <div class="button">[["И это всё?"|HQ_Caffeteria_Xander_IsThatIt]]</div>
+                        <div class="button">[["Что ещё ты любишь?"|HQ_Caffeteria_Xander_WhatElse]]</div>
+                        <div class="button">[[Обидеться самой|HQ_Caffeteria_Xander_Pout]]</div>
                     <</replace>>
                 <</cont>>
             <</cont>>

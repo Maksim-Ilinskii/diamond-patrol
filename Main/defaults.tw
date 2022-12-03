@@ -61,4 +61,14 @@
     <<set $xanderdateAccepted = false>>
     
     <<set $cullenJoinsConvoy = false>>
+
+
+    <<set $xanderIntercomOff = false>>
+
+
+    <<set $cullenCargoInsist = false>>
+    <<set $cullenPiratesAttack = false>>
+    <<set $cullenAboutCapt = true>>
+    <<set $cullenAboutGirlfriend= false>>
+    <<set $kissCullen = false>>
 <</silently>>\

@@ -9,11 +9,11 @@
 <<silently>>
     <<cont keypress>>
         <<replace '#exposition'>>\
-            <<if $gotDressed == true && $closeCanopy == true>>
+            <<if $gotDressed == true && $closeCanopy == true>>\
                 <<cul>>Видок у тебя сегодня сонный, <<print $Player.name>>!<</cul>>
-            <<elseif $gotDressed == false || $closeCanopy == false>>
+            <<elseif $gotDressed == false || $closeCanopy == false>>\
                 <<cul>>Да ты сегодня растрёпа, <<print $Player.name>>! У тебя дома был взрыв? <</cul>>
-            <<else>>
+            <<else>>\
                 <<cul>>Видок у тебя сегодня сонный, <<print $Player.name>>!<</cul>>
             <</if>>
         <</replace>>
