@@ -22,12 +22,6 @@
 
 :: Home_1
 
-[[Drake_GoTo_Cullen_AwkwardSilence]]
-[[Testground]]
-[[HQ_Captain_Pushups]]
-
-[[StepOnIt]]
-
 <div class='crt'><div style="color:rgb(151, 38, 173);font-family:'Russo One', sans-serif;">ВВЕДИТЕ ИМЯ ВАШЕЙ ГЕРОИНИ:</div>
 <<textbox "$Player.name" $Player.name>> \
 <<button "Подтвердить">>
