@@ -39,6 +39,8 @@
         } 
     }>>*/
 
+    
+
     <<set $Player.detective += 0>>
     <<set $Player.lawmaker += 0>>
     <<set $Player.renegate += 0>>
@@ -65,10 +67,15 @@
 
     <<set $xanderIntercomOff = false>>
 
-
+    <<set $drakeCullenAboutCargo = false>>
     <<set $cullenCargoInsist = false>>
     <<set $cullenPiratesAttack = false>>
     <<set $cullenAboutCapt = true>>
-    <<set $cullenAboutGirlfriend= false>>
+    <<set $cullenAboutGirlfriend = false>>
     <<set $kissCullen = false>>
-<</silently>>\
+    <<set $howBecameACop = false>>
+
+    <<set $prepareDesintegrator = false>>
+    <<set $prepareLaserGuns = false>>
+    <<set $convoyFight_Hack = false>>
+<</silently>>

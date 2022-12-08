@@ -108,7 +108,6 @@
         <</cont>>
     <</cont>>
 <</silently>>
-    
 
 
 
@@ -327,10 +326,12 @@
 <</silently>>
 
 
+
 :: HQ_Captain_Pushups_1
 
 <div class="shake"><<capt>>Два!<</capt>>\
 <div class="button">[[Отжаться|HQ_Captain_Pushups_2]]</div></div>
+
 
 
 :: HQ_Captain_Pushups_2
@@ -339,10 +340,12 @@
 <div class="button">[[Отжаться|HQ_Captain_Pushups_3]]</div></div>
 
 
+
 :: HQ_Captain_Pushups_3
 
 <div class="shaketired"><<capt>>Четыре!<</capt>>\
 <div class="button">[[Отжаться|HQ_Captain_Pushups_4]]</div></div>
+
 
 
 :: HQ_Captain_Pushups_4
@@ -365,6 +368,8 @@
         <<goto [[|HQ_Captain_Pushups_Xander]]>>
     <</timed>>
 <</silently>>
+
+
 
 :: HQ_Captain_Pushups_Xander
 

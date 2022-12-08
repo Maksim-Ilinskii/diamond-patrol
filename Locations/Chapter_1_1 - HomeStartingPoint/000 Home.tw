@@ -22,7 +22,7 @@
 
 :: Home_1
 
-[[Xander_Stay_Converge]]
+[[Drake_GoTo_Cullen_AwkwardSilence]]
 [[Testground]]
 [[HQ_Captain_Pushups]]
 
@@ -47,34 +47,29 @@
 
 
 @@#exposition;\
+<h1>ГЛАВА I. ЕЩЁ ОДИН В ОФИСЕ.</h1>\
+2324-й год. Человечество покоряет космос окончательно после глобальных конфликтов в начале 2000-х. На Земле выживает лишь один миллиард человек.
 
-
-            <h1>ГЛАВА I. ЕЩЁ ОДИН В ОФИСЕ.</h1>\
-            2324-й год. Человечество покоряет космос окончательно после глобальных конфликтов в начале 2000-х. На Земле выживает лишь один миллиард человек.
-
-            <div class='devn fadeoutinifinite'>>Кликните в любое место, чтобы продолжить</div>
+<div class='devn fadeoutinifinite'>>Кликните в любое место, чтобы продолжить</div>
 @@
 
 <<silently>>
     <<cont keypress>>
         <<replace '#exposition'>>\
-
-                Людей, включая преступников разных мастей, раскидало по космосу. Правительство альянса создаёт Интергалактическую Полицию с неограниченными ресурсами и полномочиями.
+            Людей, включая преступников разных мастей, раскидало по космосу. Правительство альянса создаёт Интергалактическую Полицию с неограниченными ресурсами и полномочиями.
         <</replace>>
             <<cont keypress>>
                 <<replace '#exposition'>>\
-
-                    Особенно ценятся в ИнтерГалаПоле пилоты. Ведь управлегте современными боевыми летательными аппаратами требуют исключительных навыков.
+                    Особенно ценятся в ИнтерГалаПоле пилоты. Ведь управление современными боевыми летательными аппаратами требуют исключительных навыков.
                  <</replace>>
             <<cont keypress>>
                 <<replace '#exposition'>>\
-
-                    Меня зовут <<print $Player.name>>, я одна из них...
+                    Меня зовут <<= $Player.name>>, я одна из них...
                 <</replace>>
                 <<cont keypress>>
                     <<replace '#exposition'>>\
-                           <<pln>> И я очень хочу спать...<</pln>>\
-                            <div class="button">[[Проснуться|WakeUp]]</div>
+                        <<pln>> И я очень хочу спать...<</pln>>\
+                        <div class="button">[[Проснуться|WakeUp]]</div>
                     <</replace>>
                 <</cont>>
             <</cont>>
@@ -83,10 +78,10 @@
 <</silently>>
 
 
+
 :: WakeUp {"position":"700,100"}
 
-
-@@#exposition;
+@@#exposition;\
 <<pli>>Гало-часы на моей руке громко запищали. Сонная, я взглянула на них.<</pli>>
     <div class='fadeoutinifinite devn'>>Кликните в любое место, чтобы продолжить</div>
 @@
@@ -94,7 +89,7 @@
 <<silently>>
     <<cont keypress>>
         <<replace '#exposition'>>
-            <img src="Media/Locations/Gaby's den.png" width="650px">
+            <img src="Media/Locations/Gaby's den.png" width="550em">
         <</replace>>
         <<cont keypress>>
             <<replace '#exposition'>>
@@ -103,6 +98,8 @@
         <</cont>>
     <</cont>>
 <</silently>>
+
+
 
 :: Wakeup_1 {"position":"900,100"}
 
@@ -114,7 +111,7 @@
 <<silently>>
     <<cont keypress>>
         <<replace '#exposition'>>\
-            <<pli>>Капитан Бохэннон нас зачем-то хочет всех собрать "по ОСОБОМУ поводу."<</pli>>\
+            <<pli>>Капитан Бохэннон нас зачем-то хочет всех собрать "по особому поводу."<</pli>>\
         <</replace>>
         <<cont keypress>>
             <<replace '#exposition'>>\
@@ -161,11 +158,12 @@
             <</cont>>
         <</cont>>
     <</cont>>
-<</silently>>
-
+<</silently>>\
 <<silently>>
     <<set $gotDressed = true>>
 <</silently>>\
+
+
 
 :: flyAsIs {"position":"700,300"}
 
@@ -189,6 +187,8 @@
         <</cont>>
     <</cont>>
 <</silently>>
+
+
 
 :: flyPreparation {"position":"900,500"}
 
