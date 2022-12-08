@@ -503,7 +503,7 @@
                 <</replace>>
                 <<cont keypress>>
                     <<replace '#exposition'>>\
-                        <<pli>>Те, в свою очередь, носили на себе челноки разных размеров.<</pli>>
+                        <<pli>>Те, в свою очередь, носили на себе челноки поменьше. Такая вот матрёшка, своего рода.<</pli>>
                     <</replace>>
                     <<cont keypress>>
                         <<replace '#exposition'>>\
