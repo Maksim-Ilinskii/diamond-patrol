@@ -63,7 +63,7 @@
     <<set $xanderdateAccepted = false>>
     
     <<set $cullenJoinsConvoy = false>>
-
+    <<set $HQ_4_Cullen_SayAsIs = false>>
 
     <<set $xanderIntercomOff = false>>
 

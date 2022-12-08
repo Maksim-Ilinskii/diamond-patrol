@@ -409,18 +409,11 @@
     <</cont>>
 <</silently>>
 
-
-
-
-
 /* Ветка безопасности */
 
 
-:: CloseCanopy {"position":"1100,700"}
 
-<<silently>>
-    <<set $closeCanopy = true>>
-<</silently>>\
+:: CloseCanopy {"position":"1100,700"}
 
 @@#exposition;\
 <<pli>>Безопасность прежде всего! Я пристегнулась, закрыла кабину и надавила на педаль.<</pli>>
@@ -444,6 +437,9 @@
     <</cont>>
 <</silently>>
 
+<<silently>>
+    <<set $closeCanopy = true>>
+<</silently>>\
 
 
 :: closeToTheHQ {"position":"1900,100"}
