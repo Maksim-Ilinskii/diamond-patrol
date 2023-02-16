@@ -294,7 +294,7 @@
                                         <</replace>>
                                         <<cont keypress>>
                                             <<replace '#exposition'>>\
-                                                <<cul>>Да лишь потрепали костюм и кусок плоти вылетел.<</cul>> 
+                                                <<cul>>Да. Потрепали костюм, да кусок плоти вылетел.<</cul>> 
                                             <</replace>>
                                             <<cont keypress>>
                                                 <<replace '#exposition'>>\

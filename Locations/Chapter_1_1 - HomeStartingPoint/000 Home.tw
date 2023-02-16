@@ -1,27 +1,26 @@
 :: Intro {"position":"295,100"}
-[[Testground]]
 <<include Variables>>
 
 @@#exposition;
 <div class="crt">
 
 <img src="Media/UI/logo copy 2.png" width="800px">
-@@
 
 <div class='crtscreenfont fadeoutinifinite' style="text-align:center;">>Кликните в любое место, чтобы начать полёт</div>
+@@
 
 <<silently>>
     <<cont keypress>>
         <<replace '#exposition'>>\
-         <<goto "Home_1">>
+            <<goto "Home_1">>
         <</replace>>
     <</cont>>
 <</silently>>
 
 
-
 :: Home_1
 
+/* [[Testground]] */
 <div class='crt'><div style="color:rgb(151, 38, 173);font-family:'Russo One', sans-serif;">ВВЕДИТЕ ИМЯ ВАШЕЙ ГЕРОИНИ:</div>
 <<textbox "$Player.name" $Player.name>> \
 <<button "Подтвердить">>
@@ -62,7 +61,7 @@
                 <</replace>>
                 <<cont keypress>>
                     <<replace '#exposition'>>\
-                        <<pln>> И я очень хочу спать...<</pln>>\
+                        <<pln>> И я очень хочу спать... <</pln>>\
                         <div class="button">[[Проснуться|WakeUp]]</div>
                     <</replace>>
                 <</cont>>
@@ -186,7 +185,7 @@
 
 :: flyPreparation {"position":"900,500"}
 
-<<pli>>Одним махом я прыгнула в монорайд — подарок отца.<</pli>>\
+<<pli>>Одним махом я прыгнула в монорайд — подарок отца.
+<</pli>>\
 <div class="button">[[Давить педаль в пол|StepOnIt]]</div>
 <div class="button">[[Закрыть кабину|CloseCanopy]]</div>
-
