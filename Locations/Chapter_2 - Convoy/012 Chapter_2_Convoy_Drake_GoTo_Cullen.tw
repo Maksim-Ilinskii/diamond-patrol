@@ -689,7 +689,7 @@
                                 <</replace>>
                                 <<cont keypress>>
                                     <<replace '#exposition'>>\
-                                        <<pli>>Каллен потянулся к моим губам, обняв меня за бедро. Я была в ступоре.<</pli>>
+                                        <<pli>>Каллен потянулся к моим губам, обняв меня за бедро. Я была в ступоре.<</pli>>\
                                         <div class="button">[[Убрать Руку|Drake_Cullen_HandAway]]</div>
                                         <div class="button">[[Поддаться искушению|Drake_Cullen_FallToTemptation]]</div>
                                     <</replace>>

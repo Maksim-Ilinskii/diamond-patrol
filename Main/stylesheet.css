@@ -102,6 +102,45 @@ button {
 	}
 }
 
+.rombtn a { 
+	display: block;
+	float: left !important;
+	position: relative;
+	width: 18.75rem;
+	font-family: 'Russo One', sans-serif;
+	font-size: 1rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: transparent !important;
+    background-repeat: no-repeat !important;
+	box-shadow: 5px 5px 3px Black;
+	border-radius: 4px;
+	border: 2px solid;
+	border-color: rgb(151, 38, 173);
+	cursor: pointer;
+	padding: 0rem 1rem !important;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	/* top | right | bottom | left ВЫСТАВИТЬ В ПРААВИЛЬНОМ ПОРЯДКЕ! */
+	margin-bottom: -30px!important;
+
+}
+
+/* rgb(151, 38, 173) */
+
+.rombtn a:hover {
+	text-decoration: none;
+	box-shadow: 0px 0px 0px 0px;
+	top: 5px;
+	left: 5px;
+}
+
+@media (min-width: 768px) {
+	.rombtn a {
+	  padding: 0.25em 0.75em;
+	}
+}
 
 /* DIALOGUE BOXES */
 
