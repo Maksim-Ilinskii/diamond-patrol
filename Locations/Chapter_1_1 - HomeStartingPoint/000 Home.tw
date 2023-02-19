@@ -2,27 +2,19 @@
 <<include Variables>>
 
 @@#exposition;
-<div class="crt">
-
-<img src="Media/UI/logo copy 2.png" width="800px">
-
-<div class='crtscreenfont fadeoutinifinite' style="text-align:center;">>Кликните в любое место, чтобы начать полёт</div>
-@@
-
-<<silently>>
-    <<cont keypress>>
-        <<replace '#exposition'>>\
-            <<goto "Home_1">>
-        <</replace>>
-    <</cont>>
-<</silently>>
 
 
-:: Home_1
+<div class="crt"><img src="Media/UI/logo copy 2.png" width="800px"></div>
 
-<div class="rombtn">[[Романтическая часть|Drake_Cullen_DeclareFeelings]]</div>
+<div class="rombtn">[[Посмотреть только романтическую часть|Drake_GoTo_Cullen]]</div>
+
+<div class="rombtn">[[Начать игру с начала|Home_Start]]</div>
+
+
+:: Home_Start 
+
 <div class='crt'><div style="color:rgb(151, 38, 173);font-family:'Russo One', sans-serif;">ВВЕДИТЕ ИМЯ ВАШЕЙ ГЕРОИНИ:</div>
-<<textbox "$Player.name" $Player.name>> \
+<<textbox "$Player.name" $Player.name>>\ 
 <<button "Подтвердить">>
 <<set $Player.name = $Player.name.trim()>>
 <<if $Player.name == "">>
